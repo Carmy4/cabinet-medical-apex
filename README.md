@@ -1,7 +1,14 @@
-# 🏥 PROIECT BD-P2: Cabinet Medical 
+# 🏥 PROIECT BD-P2: Cabinet Medical
 
 ## 📖 Descrierea Proiectului
-Acest repository conține implementarea mea pentru aplicația de gestiune a unui cabinet medical, dezvoltată în Oracle APEX. Proiectul a fost realizat în echipă (2 studenți), iar acest portofoliu evidențiază structura bazei de date și modulele interfeței grafice dezvoltate exclusiv de mine.
+Acest repository conține implementarea mea pentru aplicația de gestiune a unui cabinet medical, dezvoltată în Oracle APEX. Proiectul a fost realizat în echipă (2 studenți), iar acest portofoliu evidențiază structura bazei de date și modulele interfeței grafice dezvoltate exclusiv de mine (Student A).
+
+## 🧪 Testare Live Aplicație
+Aplicația poate fi testată live accesând acest link: **https://oracleapex.com/ords/r/pocioiancarmina/cabinet-medical/home**
+
+Pentru a trece de ecranul de login și a explora interfața, puteți folosi acest cont de test (cu drepturi depline de vizualizare, fără drept de modificare cod):
+* **User:** TEST_USER
+* **Parolă:** Cabinet_Test2026!
 
 ## 🗄️ Structura Bazei de Date (Proiectare Comună)
 Aplicația funcționează pe o schemă relațională formată din următoarele tabele:
@@ -19,5 +26,5 @@ Pentru interfața aplicației, am fost responsabilă de dezvoltarea următoarelo
 * **Raportare Statistici Medici:** Raport de sinteză care afișează o listă cu: numele medicului, specialitatea, gradul și numărul total de programări pentru acesta.
 
 ## 📂 Fișierele Proiectului
-* Scripturile SQL care cuprind instrucțiunile DDL (crearea tabelelor și a constrângerilor de integritate) și DML (inserarea datelor de test: 8 medici, 30 programări, 40 rețete).
-* Exportul aplicației Oracle APEX conținând paginile și logica dezvoltată.
+* **Scripturi SQL (`tabele_cabinet.sql`)**: Cuprind instrucțiunile DDL (crearea tabelelor și a constrângerilor de integritate) și DML (inserarea datelor de test: 8 medici, 30 programări, 40 rețete).
+* **Aplicația APEX (`f193662.sql`)**: Exportul aplicației Oracle APEX conținând paginile și logica dezvoltată.
